@@ -1,0 +1,15 @@
+{
+  "name": "node-pkl",
+  "version": "1.0.0",
+  "description": "Simply execute your pkl file into data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pkl",
+    "node-pkl"
+  ],
+  "author": "jettcalleja",
+  "license": "MIT"
+}
