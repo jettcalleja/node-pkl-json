@@ -1,25 +1,25 @@
-# node-pkl
+# node-pkl-json
 
-The `node-pkl` library provides a Node.js interface to run `pkl` commands on files directly from your JavaScript code. It simplifies the process of executing `pkl` and handling its output within Node.js applications.
+The `node-pkl-json` library provides a Node.js interface to run `pkl` commands on files directly from your NodeJS code to generate json data.
 
 ## Prerequisites
 
-Before using `node-pkl`, you must have the `pkl` command-line tool installed on your system. For instructions on how to install `pkl`, visit the official [pkl CLI installation guide](https://pkl-lang.org/main/current/pkl-cli/index.html#installation).
+Before using `node-pkl-json`, you must have the `pkl` command-line tool installed on your system. For instructions on how to install `pkl`, visit the official [pkl CLI installation guide](https://pkl-lang.org/main/current/pkl-cli/index.html#installation).
 
 ## Installation
 
-To use `node-pkl` in your project, you can install it via npm by running the following command:
+To use `node-pkl-json` in your project, you can install it via npm by running the following command:
 
 ```bash
-npm install --save node-pkl
+npm install --save node-pkl-json
 ```
 
 ## Example Usage
 
-Here's how to use `node-pkl` to run a `pkl` command on a specific file:
+Here's how to use `node-pkl-json` to run a `pkl` command on a specific file:
 
 ```javascript
-const { setPklPath, runPkl } = require('node-pkl');
+const { setPklPath, runPkl } = require('node-pkl-json');
 
 // Set the path to your pkl command once
 // Don't include the pkl in this path
@@ -52,7 +52,7 @@ Replace '/absolute/path/to/pkl' and '/path/to/your/file.pkl' with the actual pat
 
 ## Contributing
 
-Contributions to node-pkl are welcome. Please feel free to submit pull requests or open issues to improve the library or report bugs.
+Contributions to node-pkl-json are welcome. Please feel free to submit pull requests or open issues to improve the library or report bugs.
 
 ## License
 

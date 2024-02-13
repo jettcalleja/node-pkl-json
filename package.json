@@ -1,5 +1,5 @@
 {
-  "name": "node-pkl",
+  "name": "node-pkl-json",
   "version": "1.0.0",
   "description": "Simply execute your pkl file into data",
   "main": "index.js",
@@ -8,7 +8,8 @@
   },
   "keywords": [
     "pkl",
-    "node-pkl"
+    "node-pkl",
+    "node-pkl-json"
   ],
   "author": "jettcalleja",
   "license": "MIT"
